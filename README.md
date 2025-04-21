@@ -1,5 +1,4 @@
 # CosyVoice-deployment
-# CosyVoice 部署说明
 
 本项目旨在展示如何在 AutoDL 云平台上部署并运行 CosyVoice
 
