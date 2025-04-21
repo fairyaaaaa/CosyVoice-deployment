@@ -43,8 +43,6 @@ pip install -r requirements.txt -i https://mirrors.aliyun.com/pypi/simple/ --tru
 # 安装 pynini（语音相关工具包）
 conda install -y -c conda-forge pynini==2.1.5
 
-# 安装 ffmpeg（用于音频播放和转换）
-apt update && apt install -y ffmpeg
 ```
 
 ### 4. 下载CosyVoice2-0.5B模型
@@ -88,7 +86,7 @@ python webui.py --port 50000 --model_dir pretrained_models/CosyVoice2-0.5B
 
 - 如遇 `ffprobe` 错误，请执行：
 ```bash
-apt install -y ffmpeg
+apt update && apt install -y ffmpeg
 ```
 
 ---
