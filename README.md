@@ -7,8 +7,6 @@
 
 - 平台：AutoDL 容器
 - 操作系统：Ubuntu 22.04
-- Python：3.10
-- PyTorch 版本：2.1.2
 - CUDA 版本：11.8
 - GPU：NVIDIA RTX 3090 (24GB)
 - CPU：20 vCPU AMD EPYC 7642
