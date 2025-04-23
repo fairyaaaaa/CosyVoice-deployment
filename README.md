@@ -44,10 +44,10 @@ conda install -y -c conda-forge pynini==2.1.5
 
 ### 4. 下载CosyVoice2-0.5B模型
 使用 ModelScope 平台提供的 snapshot_download 工具，将模型下载至本地：
-、、、bash
+```bash
 from modelscope import snapshot_download
 snapshot_download('iic/CosyVoice2-0.5B',local_dir='pretrained_models/CosyVoice2-0.5B')
-、、、
+```
 下载后模型将保存在 pretrained_models/CosyVoice2-0.5B 路径下。
 
 ### 5. 下载预训练音色
