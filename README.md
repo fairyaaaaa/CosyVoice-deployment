@@ -46,11 +46,7 @@ conda install -y -c conda-forge pynini==2.1.5
 使用 ModelScope 平台提供的 snapshot_download 工具，将模型下载至本地：
 、、、bash
 from modelscope import snapshot_download
-
-snapshot_download(
-    'iic/CosyVoice2-0.5B',
-    local_dir='pretrained_models/CosyVoice2-0.5B'
-)
+snapshot_download('iic/CosyVoice2-0.5B',local_dir='pretrained_models/CosyVoice2-0.5B')
 、、、
 下载后模型将保存在 pretrained_models/CosyVoice2-0.5B 路径下。
 
