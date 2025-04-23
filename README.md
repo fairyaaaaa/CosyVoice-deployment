@@ -18,7 +18,7 @@
 ```bash
 cd ~/autodl-tmp
 git clone --recursive https://github.com/FunAudioLLM/CosyVoice.git
-cd cosyvoice
+cd CosyVoice
 ```
 
 ### 2. 创建并激活 Conda 虚拟环境
